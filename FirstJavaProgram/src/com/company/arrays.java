@@ -11,6 +11,7 @@ public class arrays {
 //
         int [] marks = {10, 70, 80, 71, 98};
         System.out.println(marks[4]);
+        System.out.println(marks.length);
 
     }
 }
