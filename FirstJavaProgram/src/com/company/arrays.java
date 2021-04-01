@@ -9,9 +9,14 @@ public class arrays {
 //        marks[3] = 90;
 //        marks[4] = 86;
 //
-        int [] marks = {10, 70, 80, 71, 98};
-        System.out.println(marks[4]);
-        System.out.println(marks.length);
+        int [] marks = {90, 70, 80, 71, 98};
+//        System.out.println(marks[4]);
+//        System.out.println(marks.length);
+
+        //Displaying the Array (for loop)
+        for(int i =0; i <  marks.length; i++){
+            System.out.println(marks [i]);
+        }
 
     }
 }
