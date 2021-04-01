@@ -21,5 +21,9 @@ public class arrays {
         for (int i=marks.length -1; i >= 0; i--) {
             System.out.println(marks[i]);
     }
+        System.out.println("Printing the array using for-each loop");
+        for(int element: marks){
+            System.out.println(element);
+        }
 }
 }
