@@ -17,8 +17,8 @@ class MyMainEmployee{
 public class Constructors {
     public static void main(String[] args) {
         MyMainEmployee nasim = new MyMainEmployee();
-        nasim.setName("Nasim");
-        nasim.setId(34);
+        //nasim.setName("Nasim");
+        //nasim.setId(34);
         System.out.println(nasim.getId());
         System.out.println(nasim.getName());
     }
