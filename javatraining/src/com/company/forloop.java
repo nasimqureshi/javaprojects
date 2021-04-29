@@ -2,7 +2,7 @@ package com.company;
 
 public class forloop {
     public static void main(String[] args) {
-        for( int i=10; i>0; i-=2){
+        for( int i=10; i>0; i--){
             System.out.println(i);
         }
         System.out.println("Happy new year!");
