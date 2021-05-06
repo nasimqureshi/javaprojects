@@ -13,4 +13,10 @@ public class Human {
         this.weight = weight;
 
     }
+    void eat(){
+        System.out.println(this.name + "is eating his dinner");
+    }
+    void dirk(){
+        System.out.println(this.name + "is drinking soda");
+    }
 }

@@ -4,6 +4,8 @@ public class constructors {
     public static void main(String[] args) {
       Human human1 = new Human("Nasim Qureshi", 68, 170);
       Human human2 = new Human("Qamar Qureshi", 65, 150);
+      human1.eat();
+      human2.dirk();
 
         System.out.println(human1.name);
         System.out.println(human1.age);
